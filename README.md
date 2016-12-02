@@ -23,7 +23,7 @@ Project overview is [here](https://playcanvas.com/project/433966/overview/photon
 Only PlayCanvas
 
 ## Usage
-<ul>
+<ol>
 <li>download this plugin</li>
 <li>upload your game project</li>
 <li>create script on PlayCanvas, "app.js"</li>
@@ -35,7 +35,7 @@ You should call Photon-Javascript_SDK.js and demoloadbalancing.js before app.js
 <li>attached app.js to any object</li>
 <li>after parse, fill your information(Please get your AppId)</li>
 <li>You can ready to use photon</li>
-</ul>
+</ol>
 
 ## coding
 if you attached app.js to ROOT object...
@@ -90,7 +90,7 @@ photonobject.photon.onActorJoin = function(actor){
     }
 }
 
-### if other player joined room before you join
+<h3>if other player joined room before you join</h3>
 <pre>
 PhotonController.photon.onJoinRoom = function(){
 for(var i = 1;i < this.myActor().actorNr;i++){
