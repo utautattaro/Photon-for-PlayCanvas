@@ -23,15 +23,10 @@ App.attributes.add("Masterserver",{type:"string",title:"Server Address",descript
 App.attributes.add("GENERAL",{type:"title"});
 App.attributes.add("ConnectOnStart",{type:"boolean",default:true,title:"Auto-Join Lobby",description:"Define if PhotonNetwork should join the 'lobby' when connected to the Master server"});
 
-
-
-
 var DemoWss;
 var DemoMasterServer;
 var connectRegion;
 var ConnectOnStart;
-var entity;
-var gamecss;
 
 // initialize code called once per entity
 App.prototype.initialize = function() {
@@ -86,11 +81,11 @@ App.prototype.initialize = function() {
     });
     
     // css load and initialize
-    cssAsset = this.app.assets.find('style.css');
+    var cssAsset = this.app.assets.find('style.css');
 
-    stylecss = document.createElement('style');
-    document.head.appendChild(stylecss);
+    var stylecss = document.createElement('style');
     stylecss.innerHTML = cssAsset.resource;
+    document.head.appendChild(stylecss);
         
     cssAsset.on('load', function() {
         style.innerHTML = cssAsset.resource;
