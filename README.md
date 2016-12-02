@@ -12,7 +12,7 @@ You just insert this plugin for your playcanvas project, you can be ready using 
 
 This plugin support both photon cloud and photon server.
 
-<img width="80%" src="http://i.imgur.com/wEfLBe7.png" />
+<img width="100%" src="http://i.imgur.com/wEfLBe7.png" />
 
 ## Demo
 [demo](http://playcanvas.utautattaro.com/photon/)
@@ -59,7 +59,7 @@ You should call Photon-Javascript_SDK.js and demoloadbalancing.js before app.js
 
 <li>Congratulations! You can ready to use photon</li>
 
-<img width="80%" src="http://i.imgur.com/aSYMNoG.png" />
+<img width="100%" src="http://i.imgur.com/aSYMNoG.png" />
 
 </ol>
 
