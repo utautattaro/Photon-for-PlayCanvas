@@ -131,9 +131,8 @@ for(var i = 1;i < this.myActor().actorNr;i++){
 </pre>
 
 ## Author
-<img width="50%" src="http://i.imgur.com/Xh1GynL.jpg" />
+<img width="30%" src="http://i.imgur.com/Xh1GynL.jpg" />
 ryotaro
-
 [portal](http://utautattaro.com)
 [blog](http://blog.utautattaro.com)
 [playcanvas](https://playcanvas.com/ryotaro)
