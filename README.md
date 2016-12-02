@@ -59,7 +59,7 @@ You should call Photon-Javascript_SDK.js and demoloadbalancing.js before app.js
 
 <li>Congratulations! You can ready to use photon</li>
 
-<img width="40%" src="http://i.imgur.com/aSYMNoG.png" />
+<img width="80%" src="http://i.imgur.com/aSYMNoG.png" />
 
 </ol>
 
@@ -131,7 +131,7 @@ for(var i = 1;i < this.myActor().actorNr;i++){
 </pre>
 
 ## Author
-
+<img width="50%" src="http://i.imgur.com/Xh1GynL.jpg" />
 ryotaro
 
 [portal](http://utautattaro.com)
