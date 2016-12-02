@@ -108,7 +108,7 @@ somescript.prototype.update = function(dt){
 //in update method...
 photonobject.photon.onActorJoin = function(actor){
     if(actor.actorNr == this.myActor().actorNr)
-    {//I join room
+    {//player join room
     }
     else
     {//other player join room
