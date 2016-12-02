@@ -15,7 +15,7 @@ This plugin support both photon cloud and photon server.
 <img width="80%" src="http://i.imgur.com/wEfLBe7.png" />
 
 ## Demo
-[Multiplay tank game sample](http://playcanvas.utautattaro.com/photon/)
+<iframe src="http://playcanvas.utautattaro.com/photon/"></iframe>
 
 Project overview is [here](https://playcanvas.com/project/433966/overview/photonstarterkit).This project is all public.
 
