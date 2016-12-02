@@ -82,7 +82,6 @@ App.prototype.initialize = function() {
     
     // css load and initialize
     var cssAsset = this.app.assets.find('style.css');
-
     var stylecss = document.createElement('style');
     stylecss.innerHTML = cssAsset.resource;
     document.head.appendChild(stylecss);
