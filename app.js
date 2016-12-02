@@ -71,6 +71,7 @@ App.prototype.initialize = function() {
     //////////////////////////////////////////////////
     //load and seting UI 
     //////////////////////////////////////////////////
+    //html load and initialize
     var htmlAsset = this.app.assets.find('index.html');
     var div = document.createElement('div');
     div.innerHTML = htmlAsset.resource;
