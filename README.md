@@ -129,6 +129,12 @@ for(var i = 1;i < this.myActor().actorNr;i++){
 }
 </pre>
 
+## License
+MIT License
+
+Copyright (c) 2016 Ryotaro Tsuda
+
+
 ## Author
 <img width="30%" src="http://i.imgur.com/Xh1GynL.jpg" />
 
