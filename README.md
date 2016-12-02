@@ -27,7 +27,7 @@ Only PlayCanvas
 <li>download this plugin</li>
 <li>upload your game project</li>
 
-![Imgur](http://i.imgur.com/UGxJnFj.png)
+<img src="http://i.imgur.com/UGxJnFj.png" />
 
 <li>create script on PlayCanvas, "app.js"</li>
 
