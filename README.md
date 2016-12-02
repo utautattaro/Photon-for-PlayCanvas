@@ -40,8 +40,8 @@ because app.js must playcanvas object.
 
 INSPECTOR > SCRIPT "No Script Objects found" is old app.js
 
-<img src="http://i.imgur.com/O3qu87n.png" />
-<img src="http://i.imgur.com/jcESITK.png" />
+<img src="http://i.imgur.com/O3qu87n.png" title="old app.js"/>
+<img src="http://i.imgur.com/jcESITK.png" title="new app.js"/>
 
 <li>"SCRIPT LOADING ORDER"change</li>
 
