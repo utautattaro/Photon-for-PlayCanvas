@@ -12,7 +12,7 @@ You just insert this plugin for your playcanvas project, you can be ready using 
 
 This plugin support both photon cloud and photon server.
 
-<img src="http://i.imgur.com/wEfLBe7.png" />
+<img width="30%" src="http://i.imgur.com/wEfLBe7.png" />
 
 ## Demo
 [Multiplay tank game sample](http://playcanvas.utautattaro.com/photon/)
@@ -27,12 +27,12 @@ Only PlayCanvas
 <li>download this plugin</li>
 <li>upload your game project</li>
 
-<img src="http://i.imgur.com/UGxJnFj.png" />
+<img width="30%" src="http://i.imgur.com/UGxJnFj.png" />
 
 <li>create script on PlayCanvas, "app.js"</li>
 
-<img src="http://i.imgur.com/OtbPOLh.png" />
-<img src="http://i.imgur.com/n0SdsAG.png" />
+<img width="30%" src="http://i.imgur.com/OtbPOLh.png" />
+<img width="30%" src="http://i.imgur.com/n0SdsAG.png" />
 
 <li>rewirte old app.js to new app.js,after delete old app.js</li>
 
@@ -40,24 +40,24 @@ because app.js must playcanvas object.
 
 INSPECTOR > SCRIPT "No Script Objects found" is old app.js
 
-<img src="http://i.imgur.com/O3qu87n.png" title="old app.js"/>
-<img src="http://i.imgur.com/jcESITK.png" title="new app.js"/>
+<img width="30%" src="http://i.imgur.com/O3qu87n.png" title="old app.js"/>
+<img width="30%" src="http://i.imgur.com/jcESITK.png" title="new app.js"/>
 
 <li>"SCRIPT LOADING ORDER"change</li>
 
 You should call Photon-Javascript_SDK.js and demoloadbalancing.js before app.js
 
-<img src="http://i.imgur.com/vE9mP7d.png" />
+<img width="30%" src="http://i.imgur.com/vE9mP7d.png" />
 
 <li>attached app.js to any object</li>
 
 <li>after parse, fill your information(Please get your AppId)</li>
 
-<img src="http://i.imgur.com/dWDxTiT.png" />
+<img width="30%" src="http://i.imgur.com/dWDxTiT.png" />
 
 <li>Congratulations! You can ready to use photon</li>
 
-<img src="http://i.imgur.com/aSYMNoG.png" />
+<img width="30%" src="http://i.imgur.com/aSYMNoG.png" />
 
 </ol>
 
