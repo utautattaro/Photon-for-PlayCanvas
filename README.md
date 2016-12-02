@@ -36,7 +36,7 @@ Only PlayCanvas
 <img width="40%" src="http://i.imgur.com/OtbPOLh.png" />
 <img width="40%" src="http://i.imgur.com/n0SdsAG.png" />
 
-<li>rewirte old app.js to new app.js,after delete old app.js</li>
+<li>rewrite old app.js to new app.js,after delete old app.js</li>
 
 because app.js must be playcanvas object.
 
@@ -78,7 +78,7 @@ somescript.prototype.update = function(dt){
 };
 </pre>
 
-### getmessage
+### recivemessage
 <pre>
 var photonobject;
 somescript.prototype.initialize = function(){
