@@ -90,7 +90,7 @@ photonobject.photon.onActorJoin = function(actor){
     }
 }
 
-<h3>if other player joined room before you join</h3>
+###if other player joined room before you join
 <pre>
 PhotonController.photon.onJoinRoom = function(){
 for(var i = 1;i < this.myActor().actorNr;i++){
