@@ -45,7 +45,7 @@ App.prototype.initialize = function() {
         }
         else
         {
-            if(window.confirm("Thank you for your forking! \n Please get and enter your AppId if you started development \n Enter AppId :  Root > PhotonController > app.js > AppId \n Do you want to acquire AppId now?") === true){
+            if(window.confirm("Thank you for your forking! \n Please get and enter your AppId if you started development \n  Do you want to acquire AppId now?") === true){
                  window.location.href = 'https://www.photonengine.com/en/Account/Signup';
             }else{
                  window.open('about:blank','_self').close();
