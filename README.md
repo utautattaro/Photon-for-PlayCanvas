@@ -38,7 +38,7 @@ Only PlayCanvas
 
 <li>rewirte old app.js to new app.js,after delete old app.js</li>
 
-because app.js must playcanvas object.
+because app.js must be playcanvas object.
 
 INSPECTOR > SCRIPT "No Script Objects found" is old app.js
 
