@@ -5,34 +5,40 @@ PlayCanvas plugin for online multiplayer webGL Apps using photon :)
 
 Overview
 
-## Description]
+## Description
 You can create multiplayer webGL Apps with [PlayCanvas](https://playcanvas.com) and [Photon](https://www.photonengine.com/en/Photon) (and this plugin);
+
 You just insert this plugin for your playcanvas project, you can be ready using photon.
+
 This plugin support both photon cloud and photon server.
+
 ![image](http://ryla.deci.jp/storage/playcanvasphoton.gif);
 
 ## Demo
 [Multiplay tank game sample](http://playcanvas.utautattaro.com/photon/)
+
 Project overview is [here](https://playcanvas.com/project/433966/overview/photonstarterkit).This project is all public.
 
 ## Requirement
 Only PlayCanvas
 
 ## Usage
-1.download this plugin
-1.upload your game project
-1.create script on PlayCanvas, "app.js"
-1.rewirte old app.js to new app.js,after delete old app.js
+<ul>
+<li>download this plugin</li>
+<li>upload your game project</li>
+<li>create script on PlayCanvas, "app.js"</li>
+<li>rewirte old app.js to new app.js,after delete old app.js</li>
 because app.js must playcanvas object.
 INSPECTOR > SCRIPT "No Script Objects found" is old app.js
-1."SCRIPT LOADING ORDER"change
+<li>"SCRIPT LOADING ORDER"change</li>
 You should call Photon-Javascript_SDK.js and demoloadbalancing.js before app.js
-1.attached app.js to any object
-1.after parse, fill your information(Please get your AppId)
-1.You can ready to use photon
+<li>attached app.js to any object</li>
+<li>after parse, fill your information(Please get your AppId)</li>
+<li>You can ready to use photon</li>
+</ul>
 
 ## coding
-if you attached app.js to ROOT objeckt...
+if you attached app.js to ROOT object...
 ### sendmessage
 <pre>
 var photonobject;
@@ -84,10 +90,10 @@ photonobject.photon.onActorJoin = function(actor){
     }
 }
 
-### if other player joined room before you join.
+### if other player joined room before you join
 <pre>
 PhotonController.photon.onJoinRoom = function(){
-for(var i = 1;i<this.myActor().actorNr;i++){
+for(var i = 1;i < this.myActor().actorNr;i++){
             if(this.myRoomActors()[i]){
                 if(!this.myRoomActors()[i].isLocal){
                     //loop num of players on room
