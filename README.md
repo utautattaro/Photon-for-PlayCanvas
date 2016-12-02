@@ -12,7 +12,7 @@ You just insert this plugin for your playcanvas project, you can be ready using 
 
 This plugin support both photon cloud and photon server.
 
-![image](http://ryla.deci.jp/storage/playcanvasphoton.gif);
+![Imgur](http://i.imgur.com/bpgThme.gifv)
 
 ## Demo
 [Multiplay tank game sample](http://playcanvas.utautattaro.com/photon/)
@@ -90,8 +90,9 @@ photonobject.photon.onActorJoin = function(actor){
     }
 }
 
-###other player before you join###
+
 <pre>
+//if other player joined room before you join 
 PhotonController.photon.onJoinRoom = function(){
 for(var i = 1;i < this.myActor().actorNr;i++){
             if(this.myRoomActors()[i]){
