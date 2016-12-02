@@ -85,7 +85,7 @@ App.prototype.initialize = function() {
         div.innerHTML = htmlAsset.resource;
     });
     
-    // CSSリソースのロード及び初期化
+    // css load and initialize
     cssAsset = this.app.assets.find('style.css');
 
     stylecss = document.createElement('style');
