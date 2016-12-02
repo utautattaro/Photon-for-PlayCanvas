@@ -12,7 +12,7 @@ You just insert this plugin for your playcanvas project, you can be ready using 
 
 This plugin support both photon cloud and photon server.
 
-![imgur](http://i.imgur.com/eAp1s4b.png,"demo")
+![Imgur](http://i.imgur.com/wEfLBe7.png)
 
 ## Demo
 [Multiplay tank game sample](http://playcanvas.utautattaro.com/photon/)
