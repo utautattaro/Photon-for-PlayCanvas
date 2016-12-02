@@ -73,8 +73,8 @@ somescript.prototype.initialize = function(){
 };
 
 somescript.prototype.update = function(dt){
-    PhotonController.photon.raiseEvent(1, this.entity.getLocalPosition()); // send position data on Eventcode 1
-    PhotonController.photon.raiseEvent(2, this.entity.getLocalEulerAngles());// send angle data on Eventcode 2
+    photonobject.photon.raiseEvent(1, this.entity.getLocalPosition()); // send position data on Eventcode 1
+    photonobject.photon.raiseEvent(2, this.entity.getLocalEulerAngles());// send angle data on Eventcode 2
 };
 </pre>
 
@@ -116,10 +116,8 @@ photonobject.photon.onActorJoin = function(actor){
     }
 }
 
-
-<pre>
 //if other player joined room before you join 
-PhotonController.photon.onJoinRoom = function(){
+photonobject.photon.onJoinRoom = function(){
 for(var i = 1;i < this.myActor().actorNr;i++){
             if(this.myRoomActors()[i]){
                 if(!this.myRoomActors()[i].isLocal){
