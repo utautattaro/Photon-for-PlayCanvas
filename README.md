@@ -130,6 +130,7 @@ for(var i = 1;i < this.myActor().actorNr;i++){
 
 ## Author
 <img width="30%" src="http://i.imgur.com/Xh1GynL.jpg" />
+
 ryotaro
 [portal](http://utautattaro.com)
 [blog](http://blog.utautattaro.com)
