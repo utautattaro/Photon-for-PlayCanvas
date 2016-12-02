@@ -17,7 +17,7 @@ This plugin support both photon cloud and photon server.
 ## Demo
 [demo](http://playcanvas.utautattaro.com/photon/)
 
-Plaease play this game, on many tabs, many devices! 
+Please play this game, on many tabs, many devices! 
 
 Project overview is [here](https://playcanvas.com/project/433966/overview/photonstarterkit).This project is all public.
 
