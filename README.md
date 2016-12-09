@@ -86,7 +86,7 @@ somescript.prototype.initialize = function(){
 };
 
 somescript.prototype.update = function(dt){
-    photonobject.photon.onEvent = function(code, content, actorNr){
+    photonobject.photon.onEvent = function(code, content, actorNr){//callback if you recive message
         switch(code){
             case 1: 
                 console.log(content.data[0]) // Position.x;
