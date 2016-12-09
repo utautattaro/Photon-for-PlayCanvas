@@ -122,7 +122,7 @@ photonobject.photon.onJoinRoom = function(){
 for(var i = 1;i < this.myActor().actorNr;i++){
             if(this.myRoomActors()[i]){
                 if(!this.myRoomActors()[i].isLocal){
-                    //loop num of players on room
+                    //loop num of players in the room
                 }
             }
     }
