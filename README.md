@@ -6,7 +6,7 @@ PlayCanvas plugin for online multiplayer webGL Apps using photon :)
 # Overview
 
 ## Description
-You can create multiplayer webGL Apps with [PlayCanvas](https://playcanvas.com) and [Photon](https://www.photonengine.com/en/Photon) (and this plugin);
+You can create multiplayer webGL Apps with [PlayCanvas](https://playcanvas.com) and [Photon](https://www.photonengine.com/en/Photon) (and this plugin)
 
 You just insert this plugin for your playcanvas project, you can be ready using photon.
 
@@ -31,7 +31,7 @@ Only PlayCanvas
 
 <img width="40%" src="http://i.imgur.com/UGxJnFj.png" />
 
-<li>create script on PlayCanvas, "app.js"</li>
+<li>create script on PlayCanvas, named "app.js"</li>
 
 <img width="40%" src="http://i.imgur.com/OtbPOLh.png" />
 <img width="40%" src="http://i.imgur.com/n0SdsAG.png" />
