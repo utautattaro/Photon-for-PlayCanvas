@@ -129,7 +129,7 @@ for(var i = 1;i < this.myActor().actorNr;i++){
 }
 </pre>
 
-### Leaveroom
+### leaveroom
 <pre>
 //in update method...
 PhotonController.photon.onActorLeave = function(actor,cleanup){//callback if Actor leave room
