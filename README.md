@@ -74,7 +74,7 @@ somescript.prototype.initialize = function(){
 
 somescript.prototype.update = function(dt){
     photonobject.photon.raiseEvent(1, this.entity.getLocalPosition()); // send position data on Eventcode 1
-    photonobject.photon.raiseEvent(2, this.entity.getLocalEulerAngles());// send angle data on Eventcode 2
+    photonobject.photon.raiseEvent(2, this.entity.getLocalEulerAngles()); // send angle data on Eventcode 2
 };
 </pre>
 
@@ -86,7 +86,7 @@ somescript.prototype.initialize = function(){
 };
 
 somescript.prototype.update = function(dt){
-    photonobject.photon.onEvent = function(code, content, actorNr){
+    photonobject.photon.onEvent = function(code, content, actorNr){//callback if you recive message
         switch(code){
             case 1: 
                 console.log(content.data[0]) // Position.x;
@@ -106,7 +106,7 @@ somescript.prototype.update = function(dt){
 ### joinroom
 <pre>
 //in update method...
-photonobject.photon.onActorJoin = function(actor){
+photonobject.photon.onActorJoin = function(actor){//callback if player joined room
     if(actor.actorNr == this.myActor().actorNr)
     {
         //player join room
