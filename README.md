@@ -106,7 +106,7 @@ somescript.prototype.update = function(dt){
 ### joinroom
 <pre>
 //in update method...
-photonobject.photon.onActorJoin = function(actor){//callback if player joined room
+photonobject.photon.onActorJoin = function(actor){//callback if Actor joined room
     if(actor.actorNr == this.myActor().actorNr)
     {
         //player join room
@@ -127,6 +127,21 @@ for(var i = 1;i < this.myActor().actorNr;i++){
             }
     }
 }
+</pre>
+
+### Leaveroom
+<pre>
+//in update method...
+PhotonController.photon.onActorLeave = function(actor,cleanup){//callback if Actor leave room
+        if(actor.actorNr == this.myActor().actorNr)
+        {
+            //if player leave room  
+        }
+        else
+        {
+            //other player leave room
+        }
+    };
 </pre>
 
 ## License
