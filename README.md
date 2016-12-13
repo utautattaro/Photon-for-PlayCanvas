@@ -53,7 +53,7 @@ You should call Photon-Javascript_SDK.js and demoloadbalancing.js before app.js
 
 <li>attached app.js to any object</li>
 
-<li>after parse, fill your information. If you fill "server address" of PHOTON SERVER, using photon server.The colum should be blank when you want to use photon cloud.</li>
+<li>after parse, fill your information. If you filled "server address" of PHOTON SERVER,must be using photon server.The colum should be blank when you want to use photon cloud.</li>
 
 <img width="40%" src="http://i.imgur.com/dWDxTiT.png" />
 
