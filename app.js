@@ -5,6 +5,7 @@ App.attributes.add("appversion",{type:"string",default:"1.0",title:"Appversion",
 App.attributes.add("Region",{
     type: 'string',
     default: 'default',
+    description: 'Photon Cloud has servers in several regions, distributed across multiple hosting centers over the world.You can choose optimized region for you.',
     enum: [
         { "Select Region" : 'default'},
         { "Asia, Singapore" : 'asia'},
