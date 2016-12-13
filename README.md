@@ -31,19 +31,14 @@ Only PlayCanvas
 
 <img width="40%" src="http://i.imgur.com/UGxJnFj.png" />
 
-<li>create script on PlayCanvas, named "app.js"</li>
+<li>app.js to become playcanvas script object</li>
 
-<img width="40%" src="http://i.imgur.com/OtbPOLh.png" />
-<img width="40%" src="http://i.imgur.com/n0SdsAG.png" />
+app.js must be playcanvas object.
 
-<li>rewrite old app.js to new app.js,after delete old app.js</li>
+INSPECTOR > SCRIPT > SCRIPTS  click "PARSE"
 
-because app.js must be playcanvas object.
-
-INSPECTOR > SCRIPT "No Script Objects found" is old app.js
-
-<img width="40%" src="http://i.imgur.com/O3qu87n.png" title="old app.js"/>
-<img width="40%" src="http://i.imgur.com/jcESITK.png" title="new app.js"/>
+<img width="40%" src="http://i.imgur.com/mRAiQ2D.png" title="before"/>
+<img width="40%" src="http://i.imgur.com/9DdBX7X.png" title="after"/>
 
 <li>"SCRIPT LOADING ORDER"change</li>
 
