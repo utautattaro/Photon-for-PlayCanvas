@@ -4,8 +4,9 @@ App.attributes.add("appid",{type:"string",default:"",title:"AppId",description:"
 App.attributes.add("appversion",{type:"string",default:"1.0",title:"Appversion",description:"Application version. You can not be matching if you set diferense version."});
 App.attributes.add("Region",{
     type: 'string',
-    default: 'jp',
+    default: 'default',
     enum: [
+        { "Select Region" : 'default'},
         { "Asia, Singapore" : 'asia'},
         { "Australia, Melbourne": 'au'},
         { "Canada, East Montreal": 'cae'},
@@ -43,7 +44,7 @@ App.prototype.initialize = function() {
         if(localStorage.getItem("appid")){
             DemoAppId = localStorage.getItem("appid");
         }
-        else
+        else if(!this.Masterserver)
         {
             if(window.confirm("Thank you for your forking! \n Please get and enter your AppId if you started development \n  Do you want to acquire AppId now?") === true){
                  window.location.href = 'https://www.photonengine.com/en/Account/Signup';
