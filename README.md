@@ -27,7 +27,7 @@ Only PlayCanvas
 ## Usage
 <ol>
 <li>download this plugin</li>
-<li>upload your game project</li>
+<li>upload plugin files for your game project</li>
 
 <img width="40%" src="http://i.imgur.com/UGxJnFj.png" />
 
@@ -53,7 +53,7 @@ You should call Photon-Javascript_SDK.js and demoloadbalancing.js before app.js
 
 <li>attached app.js to any object</li>
 
-<li>after parse, fill your information(Please get your AppId)</li>
+<li>after parse, fill your information. If you fill "server address" of PHOTON SERVER, using photon server.The colum should be blank when you want to use photon cloud.</li>
 
 <img width="40%" src="http://i.imgur.com/dWDxTiT.png" />
 
@@ -143,6 +143,9 @@ PhotonController.photon.onActorLeave = function(actor,cleanup){//callback if Act
         }
     };
 </pre>
+
+### documentation
+[Photon-Javascript_SDK Client API Documentation](http://doc-api.photonengine.com/en/javascript/current/)
 
 ## License
 MIT License
