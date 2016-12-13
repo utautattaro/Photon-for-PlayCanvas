@@ -62,6 +62,7 @@ App.prototype.initialize = function() {
     //////////////////////////////////////////////////
     if(this.Masterserver){
         DemoMasterServer = this.Masterserver;
+        DemoAppId = "using photon server";
     }
     
     //////////////////////////////////////////////////
