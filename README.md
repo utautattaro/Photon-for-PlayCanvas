@@ -119,12 +119,12 @@ photonobject.photon.onActorJoin = function(actor){//callback if Actor joined roo
 
 //if other player joined room before you join 
 photonobject.photon.onJoinRoom = function(){
-for(var i = 1;i < this.myActor().actorNr;i++){
-            if(this.myRoomActors()[i]){
-                if(!this.myRoomActors()[i].isLocal){
-                    //loop num of players in the room
-                }
+    for(var i = 1;i < this.myActor().actorNr;i++){
+        if(this.myRoomActors()[i]){
+            if(!this.myRoomActors()[i].isLocal){
+                //loop num of players in the room
             }
+        }
     }
 }
 </pre>
