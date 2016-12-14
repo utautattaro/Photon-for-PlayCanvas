@@ -27,23 +27,18 @@ Only PlayCanvas
 ## Usage
 <ol>
 <li>download this plugin</li>
-<li>upload your game project</li>
+<li>upload plugin files for your game project</li>
 
 <img width="40%" src="http://i.imgur.com/UGxJnFj.png" />
 
-<li>create script on PlayCanvas, named "app.js"</li>
+<li>app.js to become playcanvas script object</li>
 
-<img width="40%" src="http://i.imgur.com/OtbPOLh.png" />
-<img width="40%" src="http://i.imgur.com/n0SdsAG.png" />
+app.js must be playcanvas object.
 
-<li>rewrite old app.js to new app.js,after delete old app.js</li>
+INSPECTOR > SCRIPT > SCRIPTS  click "PARSE"
 
-because app.js must be playcanvas object.
-
-INSPECTOR > SCRIPT "No Script Objects found" is old app.js
-
-<img width="40%" src="http://i.imgur.com/O3qu87n.png" title="old app.js"/>
-<img width="40%" src="http://i.imgur.com/jcESITK.png" title="new app.js"/>
+<img width="40%" src="http://i.imgur.com/mRAiQ2D.png" title="before"/>
+<img width="40%" src="http://i.imgur.com/9DdBX7X.png" title="after"/>
 
 <li>"SCRIPT LOADING ORDER"change</li>
 
@@ -53,9 +48,9 @@ You should call Photon-Javascript_SDK.js and demoloadbalancing.js before app.js
 
 <li>attached app.js to any object</li>
 
-<li>after parse, fill your information(Please get your AppId)</li>
+<li>after parse, fill your information. If you filled "server address" of PHOTON SERVER,must be using photon server.The colum should be blank when you want to use photon cloud.</li>
 
-<img width="40%" src="http://i.imgur.com/dWDxTiT.png" />
+<img width="40%" src="http://i.imgur.com/1Oq54Vj.png" />
 
 <li>Congratulations! You can ready to use photon</li>
 
@@ -143,6 +138,9 @@ PhotonController.photon.onActorLeave = function(actor,cleanup){//callback if Act
         }
     };
 </pre>
+
+### documentation
+[Photon-Javascript_SDK Client API Documentation](http://doc-api.photonengine.com/en/javascript/current/)
 
 ## License
 MIT License

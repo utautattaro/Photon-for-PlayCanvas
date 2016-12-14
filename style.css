@@ -78,3 +78,9 @@ button[disabled]:hover {
 .black{
     color: #000000;
 }
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+}
