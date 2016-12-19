@@ -1,5 +1,6 @@
 # Demo #photon cloud 20ccu @Tokyo.Japan Region)
-<TABLE WIDTH="100%" height="300"> 
+<section class="page-header">
+<TABLE WIDTH="100%" height="100%"> 
 <TR> 
 <TD> 
 
@@ -15,7 +16,7 @@
 </TD> 
 </TR> 
 </TABLE> 
-<TABLE WIDTH="100%" height="300"> 
+<TABLE WIDTH="100%" height="100%"> 
 <TR> 
 <TD> 
 
@@ -32,7 +33,7 @@
 </TD> 
 </TR> 
 </TABLE> 
-
+</section>
 ## Author
 <img width="30%" src="http://i.imgur.com/Xh1GynL.jpg" />
 
