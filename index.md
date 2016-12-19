@@ -12,15 +12,15 @@ This plugin support both photon cloud and photon server.
 <TR> 
 <TD> 
 
-<iframe src="https://playcanv.as/p/m9ZoTmjj/" width="100%" height="100%"></iframe>
+<iframe src="https://playcanv.as/p/m9ZoTmjj/" frameborder="0" width="100%" height="100%"></iframe>
 
 </TD> 
 <TD> 
-<iframe src="https://playcanv.as/p/m9ZoTmjj/" width="100%" height="100%"></iframe>
+<iframe src="https://playcanv.as/p/m9ZoTmjj/" frameborder="0" width="100%" height="100%"></iframe>
 
 </TD> 
 <TD> 
-<iframe src="https://playcanv.as/p/m9ZoTmjj/" width="100%" height="100%"></iframe>
+<iframe src="https://playcanv.as/p/m9ZoTmjj/" frameborder="0" width="100%" height="100%"></iframe>
 
 </TD> 
 </TR> 
@@ -29,15 +29,15 @@ This plugin support both photon cloud and photon server.
 <TR> 
 <TD> 
 
-<iframe src="https://playcanv.as/p/m9ZoTmjj/" width="100%" height="100%"></iframe>
+<iframe src="https://playcanv.as/p/m9ZoTmjj/" frameborder="0" width="100%" height="100%"></iframe>
 
 </TD> 
 <TD> 
-<iframe src="https://playcanv.as/p/m9ZoTmjj/" width="100%" height="100%"></iframe>
+<iframe src="https://playcanv.as/p/m9ZoTmjj/" frameborder="0" width="100%" height="100%"></iframe>
 
 </TD> 
 <TD> 
-<iframe src="https://playcanv.as/p/m9ZoTmjj/" width="100%" height="100%"></iframe>
+<iframe src="https://playcanv.as/p/m9ZoTmjj/" frameborder="0" width="100%" height="100%"></iframe>
 
 </TD> 
 </TR> 
@@ -45,3 +45,20 @@ This plugin support both photon cloud and photon server.
 
 ## PlayCanvas Project
 Project overview is [here](https://playcanvas.com/project/433966/overview/photonstarterkit).This project is all public.
+
+## Requirement
+Only PlayCanvas
+
+## License
+MIT License
+
+Copyright (c) 2016 Ryotaro Tsuda
+
+
+## Author
+<img width="30%" src="http://i.imgur.com/Xh1GynL.jpg" />
+
+ryotaro
+[portal](http://utautattaro.com)
+[blog](http://blog.utautattaro.com)
+[playcanvas](https://playcanvas.com/ryotaro)
