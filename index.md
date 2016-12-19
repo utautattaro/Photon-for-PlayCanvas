@@ -1,37 +1,47 @@
-## Welcome to GitHub Pages
+# Overview
 
-You can use the [editor on GitHub](https://github.com/utautattaro/Photon-for-PlayCanvas/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Description
+You can create multiplayer webGL Apps with [PlayCanvas](https://playcanvas.com) and [Photon](https://www.photonengine.com/en/Photon) (and this plugin)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+You just insert this plugin for your playcanvas project, you can be ready using photon.
 
-### Markdown
+This plugin support both photon cloud and photon server.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Demo (photon cloud free 20ccu @Tokyo.Japan Region)
+<TABLE WIDTH="100%" height="50%"> 
+<TR> 
+<TD> 
 
-```markdown
-Syntax highlighted code block
+<iframe src="https://playcanv.as/p/m9ZoTmjj/" width="100%" height="100%"></iframe>
 
-# Header 1
-## Header 2
-### Header 3
+</TD> 
+<TD> 
+<iframe src="https://playcanv.as/p/m9ZoTmjj/" width="100%" height="100%"></iframe>
 
-- Bulleted
-- List
+</TD> 
+<TD> 
+<iframe src="https://playcanv.as/p/m9ZoTmjj/" width="100%" height="100%"></iframe>
 
-1. Numbered
-2. List
+</TD> 
+</TR> 
+</TABLE> 
+<TABLE WIDTH="100%" height="50%"> 
+<TR> 
+<TD> 
 
-**Bold** and _Italic_ and `Code` text
+<iframe src="https://playcanv.as/p/m9ZoTmjj/" width="100%" height="100%"></iframe>
 
-[Link](url) and ![Image](src)
-```
+</TD> 
+<TD> 
+<iframe src="https://playcanv.as/p/m9ZoTmjj/" width="100%" height="100%"></iframe>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+</TD> 
+<TD> 
+<iframe src="https://playcanv.as/p/m9ZoTmjj/" width="100%" height="100%"></iframe>
 
-### Jekyll Themes
+</TD> 
+</TR> 
+</TABLE> 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/utautattaro/Photon-for-PlayCanvas/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## PlayCanvas Project
+Project overview is [here](https://playcanvas.com/project/433966/overview/photonstarterkit).This project is all public.
