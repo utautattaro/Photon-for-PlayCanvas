@@ -1,3 +1,4 @@
+<title>Photon-for-PlayCanvas</title>
 # Overview
 
 ## Description
@@ -13,7 +14,7 @@ This plugin support both photon cloud and photon server.
 
 <iframe src="https://playcanv.as/p/m9ZoTmjj/" frameborder="0" width="100%" height="480px"></iframe>
 
-<iframe src="https://playcanv.as/p/m9ZoTmjj/" frameborder="0" width="100%" height="480px"><iframe>
+<iframe src="https://playcanv.as/p/m9ZoTmjj/" frameborder="0" width="100%" height="480px"></iframe>
 
 [fullscreen](https://playcanv.as/p/m9ZoTmjj/)
 
