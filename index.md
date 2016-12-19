@@ -1,5 +1,5 @@
 # Demo #photon cloud 20ccu @Tokyo.Japan Region)
-<TABLE WIDTH="100%" height="100%"> 
+<TABLE WIDTH="100%" height="100%" style="position:absolute;height:80px;z-index:1;width: 100%;"> 
 <TR> 
 <TD> 
 
