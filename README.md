@@ -15,9 +15,7 @@ This plugin support both photon cloud and photon server.
 <img width="100%" src="http://i.imgur.com/wEfLBe7.png" />
 
 ## Demo (photon cloud free 20ccu @Tokyo.Japan Region)
-[demo](https://playcanv.as/p/m9ZoTmjj/)
-
-Please play this game, on many tabs, many devices! 
+[demo](https://utautattaro.github.io/Photon-for-PlayCanvas/)
 
 Project overview is [here](https://playcanvas.com/project/433966/overview/photonstarterkit).This project is all public.
 
