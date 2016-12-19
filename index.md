@@ -10,6 +10,9 @@ This plugin support both photon cloud and photon server.
 <img width="100%" src="http://i.imgur.com/wEfLBe7.png" />
 
 ## Demo (photon cloud free 20ccu @Tokyo.Japan Region)
+
+<iframe src="https://playcanv.as/p/m9ZoTmjj/" frameborder="0" width="100%" height="480px">
+
 <iframe src="https://playcanv.as/p/m9ZoTmjj/" frameborder="0" width="100%" height="480px">
 
 [fullscreen](https://playcanv.as/p/m9ZoTmjj/)
