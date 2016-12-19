@@ -84,14 +84,14 @@ somescript.prototype.update = function(dt){
     photonobject.photon.onEvent = function(code, content, actorNr){//callback if you recive message
         switch(code){
             case 1: 
-                console.log(content.data[0]) // Position.x;
-                console.log(content.data[1]) // Position.y;
-                console.log(content.data[2]) // Position.z;
+                console.log(content.data[0]); // Position.x
+                console.log(content.data[1]); // Position.y
+                console.log(content.data[2]); // Position.z
                 break;
             case 2:
-                console.log(content.data[0]) // angle.x;
-                console.log(content.data[1]) // angle.y;
-                console.log(content.data[2]) // angle.z;
+                console.log(content.data[0]); // angle.x
+                console.log(content.data[1]); // angle.y
+                console.log(content.data[2]); // angle.z
                 break;
         }
     };
