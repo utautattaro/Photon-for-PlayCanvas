@@ -8,6 +8,7 @@
 
 <iframe src="https://playcanv.as/p/m9ZoTmjj/" frameborder="0" width="49%" height="300px"></iframe>
 </div>
+clickwindow, move...WASD shot...enter (mobile,gamepad)
 
 [fullscreen](https://playcanv.as/p/m9ZoTmjj/)
 
