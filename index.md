@@ -1,6 +1,5 @@
 # Demo #photon cloud 20ccu @Tokyo.Japan Region)
-<div  style="position:absolute;height:640px;z-index:1;width: 100%;">
-<TABLE WIDTH="100%" height="100%"> 
+<TABLE WIDTH="100%" height="100%" style="position:absolute;height:640px;z-index:1;width: 100%;"> 
 <TR> 
 <TD> 
 
@@ -17,7 +16,7 @@
 </TR> 
 </TABLE> 
 
-<TABLE WIDTH="100%" height="100%"> 
+<TABLE WIDTH="100%" height="100%" style="position:absolute;height:640px;z-index:1;width: 100%;"> 
 <TR> 
 <TD> 
 
@@ -34,11 +33,3 @@
 </TD> 
 </TR> 
 </TABLE> 
-</div>
-## Author
-<img width="30%" src="http://i.imgur.com/Xh1GynL.jpg" />
-
-ryotaro
-[portal](http://utautattaro.com)
-[blog](http://blog.utautattaro.com)
-[playcanvas](https://playcanvas.com/ryotaro)
