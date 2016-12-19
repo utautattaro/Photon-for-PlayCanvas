@@ -1,6 +1,7 @@
 # Photon-for-PlayCanvas
 PlayCanvas plugin for online multiplayer webGL Apps using photon :)
 
+
 ====
 
 # Overview
@@ -14,10 +15,16 @@ This plugin support both photon cloud and photon server.
 
 <img width="100%" src="http://i.imgur.com/wEfLBe7.png" />
 
-## Demo (photon cloud free 20ccu @Tokyo.Japan Region)
-[demo](https://utautattaro.github.io/Photon-for-PlayCanvas/)
+[page](https://utautattaro.github.io/Photon-for-PlayCanvas/)
 
-Project overview is [here](https://playcanvas.com/project/433966/overview/photonstarterkit).This project is all public.
+## Demo (photon cloud free 20ccu @Tokyo.Japan Region)
+[demo](https://playcanv.as/p/m9ZoTmjj/)
+
+[demo-6window](https://utautattaro.github.io/Photon-for-PlayCanvas/testclient.html)
+*only pc
+
+[Project overview](https://playcanvas.com/project/433966/overview/photonstarterkit)
+This project is all public.
 
 ## Requirement
 Only PlayCanvas
