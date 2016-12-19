@@ -1,4 +1,7 @@
 # Demo #photon cloud 20ccu @Tokyo.Japan Region)
+<div style="max-width: 100%;">
+<iframe></iframe>
+</div>
 <TABLE WIDTH="100%" height="100%"> 
 <TR> 
 <TD> 
