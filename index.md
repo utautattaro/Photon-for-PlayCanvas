@@ -61,7 +61,7 @@ if you attached app.js to ROOT object...
 <pre>
 var photonobject;
 somescript.prototype.initialize = function(){
-    photonobject = this.app.root;
+    photonobject = this.app.root.children[0];//get root object
 };
 
 somescript.prototype.update = function(dt){
@@ -74,7 +74,7 @@ somescript.prototype.update = function(dt){
 <pre>
 var photonobject;
 somescript.prototype.initialize = function(){
-    photonobject = this.app.root;
+    photonobject = this.app.root.children[0];//get root object
 };
 
 somescript.prototype.update = function(dt){
