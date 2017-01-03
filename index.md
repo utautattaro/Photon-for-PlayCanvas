@@ -1,12 +1,9 @@
-<<<<<<< HEAD:README.md
 # [Photon-for-PlayCanvas](https://utautattaro.github.io/Photon-for-PlayCanvas/)
 PlayCanvas plugin for online multiplayer webGL Apps using photon :)
 
 
-====
 
 =======
->>>>>>> 5f47ee8c358fc25a09ba56f548cafff4189e58ed:index.md
 # Overview
 
 ## Description
@@ -33,7 +30,7 @@ move...WASD shot...enter (mobile,gamepad)
 [fullscreen](https://playcanv.as/p/m9ZoTmjj/)
 [Project overview](https://playcanvas.com/project/433966/overview/photonstarterkit)
 [6windows-testclient](https://utautattaro.github.io/Photon-for-PlayCanvas/testclient.html)
->>>>>>> 5f47ee8c358fc25a09ba56f548cafff4189e58ed:index.md
+
 
 ## Requirement
 Only PlayCanvas
@@ -168,10 +165,6 @@ Copyright (c) 2016 Ryotaro Tsuda
 ryotaro
 [portal](http://utautattaro.com)
 [blog](http://blog.utautattaro.com)
-<<<<<<< HEAD:README.md
 [playcanvas](https://playcanvas.com/ryotaro)
 
 last update 2017-01-03 11:39:15
-=======
-[playcanvas](https://playcanvas.com/ryotaro)
->>>>>>> 5f47ee8c358fc25a09ba56f548cafff4189e58ed:index.md
