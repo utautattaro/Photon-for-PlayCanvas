@@ -196,7 +196,7 @@ PhotonController.photon.onActorLeave = function(actor,cleanup){//callback if Act
     }
 };
 
-// serialize, deserialize
+///////////////Serialize, Deserialize///////////////
 somescript.prototype.send = function(){
     var message = "";
     message += this.entity.getLocalPosition().x + ",";
