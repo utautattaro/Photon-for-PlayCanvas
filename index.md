@@ -1,4 +1,10 @@
-# Overview
+<div align="right">
+<a href="https://utautattaro.github.io/Photon-for-PlayCanvas/">en</a>
+/
+<a href="https://utautattaro.github.io/Photon-for-PlayCanvas/ja">ja</a>
+</div>
+
+# Overview 
 
 ## Description
 You can create multiplayer webGL Apps with [PlayCanvas](https://playcanvas.com) and [Photon](https://www.photonengine.com/en/Photon) (and this plugin)
@@ -19,10 +25,6 @@ move...WASD shot...enter (mobile,gamepad)
 
 [Project overview](https://playcanvas.com/project/433966/overview/photonstarterkit)
 This project is all public.
-
-[fullscreen](https://playcanv.as/p/m9ZoTmjj/)
-[Project overview](https://playcanvas.com/project/433966/overview/photonstarterkit)
-[6windows-testclient](https://utautattaro.github.io/Photon-for-PlayCanvas/testclient.html)
 
 
 ## Requirement
