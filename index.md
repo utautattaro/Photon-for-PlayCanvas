@@ -15,13 +15,13 @@ The plugin is supporting both photon cloud and photon server.
 # Demo (photon cloud 20ccu @Tokyo.Japan Region)
 <iframe src="https://playcanv.as/p/m9ZoTmjj/" frameborder="0" width="100%" height="480px"></iframe>
 
+move...WASD shot...enter (mobile,gamepad)
+
 [demo-6window](https://utautattaro.github.io/Photon-for-PlayCanvas/testclient.html)
 *only pc
 
 [Project overview](https://playcanvas.com/project/433966/overview/photonstarterkit)
 This project is all public.
-=======
-move...WASD shot...enter (mobile,gamepad)
 
 [fullscreen](https://playcanv.as/p/m9ZoTmjj/)
 [Project overview](https://playcanvas.com/project/433966/overview/photonstarterkit)
