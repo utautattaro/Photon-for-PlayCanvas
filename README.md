@@ -1,4 +1,4 @@
-# Photon-for-PlayCanvas
+# [Photon-for-PlayCanvas](https://utautattaro.github.io/Photon-for-PlayCanvas/)
 PlayCanvas plugin for online multiplayer webGL Apps using photon :)
 
 
@@ -11,11 +11,9 @@ You can create multiplayer webGL Apps with [PlayCanvas](https://playcanvas.com) 
 
 You just insert this plugin for your playcanvas project, you can be ready using photon.
 
-This plugin support both photon cloud and photon server.
+The plugin is supporting both photon cloud and photon server.
 
 <img width="100%" src="http://i.imgur.com/wEfLBe7.png" />
-
-[page](https://utautattaro.github.io/Photon-for-PlayCanvas/)
 
 ## Demo (photon cloud free 20ccu @Tokyo.Japan Region)
 [demo](https://playcanv.as/p/m9ZoTmjj/)
@@ -160,3 +158,5 @@ ryotaro
 [portal](http://utautattaro.com)
 [blog](http://blog.utautattaro.com)
 [playcanvas](https://playcanvas.com/ryotaro)
+
+last update 2017-01-03 11:39:15
