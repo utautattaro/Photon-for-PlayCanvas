@@ -43,13 +43,15 @@ app.jsはPlayCanvasのオブジェクトである必要があります。
 
 INSPECTOR > SCRIPT > SCRIPTSから　"PARSE"をクリックしてください
 
+
 <img width="40%" src="http://i.imgur.com/mRAiQ2D.png" title="before"/>
 <img width="40%" src="http://i.imgur.com/9DdBX7X.png" title="after"/>
 
 <li>"SCRIPT LOADING ORDER"を変更します</li>
 
 Photon-Javascript_SDK.js及びdemoloadbalancing.jsはapp.jsの前に呼ばれる必要があるので、順番を変更します。
-</br>
+
+
 <img width="40%" src="http://i.imgur.com/vE9mP7d.png" />
 
 <li>app.jsを任意のオブジェクトにアタッチします</li>
@@ -66,6 +68,7 @@ Photon-Javascript_SDK.js及びdemoloadbalancing.jsはapp.jsの前に呼ばれる
 
 ## コーディング
 app.jsをROOTオブジェクトにアタッチした場合
+
 ### メッセージ送信
 <pre>
 var photonobject;
