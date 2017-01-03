@@ -2,7 +2,7 @@
 PlayCanvas plugin for online multiplayer webGL Apps using photon :)
 
 
-====
+
 
 # Overview
 
@@ -45,7 +45,7 @@ INSPECTOR > SCRIPT > SCRIPTS  click "PARSE"
 <img width="40%" src="http://i.imgur.com/mRAiQ2D.png" title="before"/>
 <img width="40%" src="http://i.imgur.com/9DdBX7X.png" title="after"/>
 
-<li>"SCRIPT LOADING ORDER"change</li>
+<li>"SCRIPT LOADING ORDER" settings</li>
 
 You should call Photon-Javascript_SDK.js and demoloadbalancing.js before app.js
 </br>
@@ -115,7 +115,7 @@ photonobject.photon.onActorJoin = function(actor){//callback if Actor joined roo
     {
         //other player join room
     }
-}
+};
 
 //if other player joined room before you join 
 photonobject.photon.onJoinRoom = function(){
@@ -126,22 +126,107 @@ photonobject.photon.onJoinRoom = function(){
             }
         }
     }
-}
+};
 </pre>
 
 ### leaveroom
 <pre>
 //in update method...
 PhotonController.photon.onActorLeave = function(actor,cleanup){//callback if Actor leave room
-        if(actor.actorNr == this.myActor().actorNr)
-        {
-            //if player leave room  
+    if(actor.actorNr == this.myActor().actorNr)
+    {
+        //if player leave room  
+    }
+    else
+    {
+        //other player leave room
+    }
+};
+</pre>
+
+
+### Hint
+<pre>
+///////////////Simple object sync///////////////
+
+// 1.Generate other player object
+photonobject.photon.onActorJoin = function(actor){//callback if Actor joined room
+    if(actor.actorNr != this.myActor().actorNr){
+        //other player join room
+        otherobject.generate(); // Generate otherobject
+    }
+};
+
+//if other player joined room before you join 
+photonobject.photon.onJoinRoom = function(){
+    for(var i = 1;i < this.myActor().actorNr;i++){
+        if(this.myRoomActors()[i]){
+            if(!this.myRoomActors()[i].isLocal){
+                //loop num of players in the room
+                otherobject.generate(); // Generate otherobject
+            }
         }
-        else
-        {
-            //other player leave room
+    }
+};
+
+// 2. Player Script: send transform
+playercontrol.prototype.send = function(){
+    photonobject.photon.raiseEvent(1, this.entity.getLocalPosition()); // send position data on Eventcode 1
+    photonobject.photon.raiseEvent(2, this.entity.getLocalEulerAngles()); // send angle data on Eventcode 2
+};
+
+// 3. Other player Manager Script : recive transforms
+otherplayercontrol.prototype.recive = function(){
+    photonobject.photon.onEvent = function(code, content, actorNr){//callback if you recive message
+        switch(code){
+            case 1: 
+                otherobject.setLocalPotisions(content.data[0],content.data[1],content.data[2]);
+                break;
+            case 2:
+                otherobject.setLocalEularAngles(content.data[0],content.data[1],content.data[2]);
+                break;
         }
     };
+};
+
+// 4. leave : Destroy object
+PhotonController.photon.onActorLeave = function(actor,cleanup){//callback if Actor leave room
+    if(actor.actorNr != this.myActor().actorNr)
+    {
+        //other player leave room
+        otherobject.destroy();
+    }
+};
+
+// serialize, deserialize
+somescript.prototype.send = function(){
+    var message = "";
+    message += this.entity.getLocalPosition().x + ",";
+    message += this.entity.getLocalPosition().y + ",";
+    .
+    .
+    .
+    message += this.entity.getLocalEulerAngles().z;
+
+    var oldmessage = "";
+    if(message != oldmessage){
+        PhotonController.photon.raiseEvent(1,message);
+        oldmessage = message;
+    }
+};
+
+somescript.prototype.recive = function(){
+    photonobject.photon.onEvent = function(code, content, actorNr){//callback if you recive message
+        switch(code){
+            case 1: 
+                var recivemes;
+                recivemes = content.data.split(",");
+                otherobject.setLocalPotisions(recivemes[0],recivemes[1],recivemes[2]);
+                otherobject.setLocalEularAngles(recivemes[3],recivemes[4],recivemes[5]);
+                break;
+        }
+    };
+};
 </pre>
 
 ### documentation
