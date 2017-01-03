@@ -1,9 +1,6 @@
 # [Photon-for-PlayCanvas](https://utautattaro.github.io/Photon-for-PlayCanvas/)
 PlayCanvas plugin for online multiplayer webGL Apps using photon :)
 
-
-
-=======
 # Overview
 
 ## Description
