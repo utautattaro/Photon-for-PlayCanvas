@@ -18,7 +18,6 @@ The plugin is supporting both photon cloud and photon server.
 # Demo (photon cloud 20ccu @Tokyo.Japan Region)
 <iframe src="https://playcanv.as/p/m9ZoTmjj/" frameborder="0" width="100%" height="480px"></iframe>
 
-<<<<<<< HEAD:README.md
 [demo-6window](https://utautattaro.github.io/Photon-for-PlayCanvas/testclient.html)
 *only pc
 
@@ -71,6 +70,7 @@ You should call Photon-Javascript_SDK.js and demoloadbalancing.js before app.js
 
 ## coding
 if you attached app.js to ROOT object...
+
 ### sendmessage
 <pre>
 var photonobject;
@@ -167,4 +167,4 @@ ryotaro
 [blog](http://blog.utautattaro.com)
 [playcanvas](https://playcanvas.com/ryotaro)
 
-last update 2017-01-03 11:39:15
+last update 2017-01-03 11:59:55
