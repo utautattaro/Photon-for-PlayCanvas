@@ -1,11 +1,17 @@
-# Overview
+<div align="right">
+<a href="https://utautattaro.github.io/Photon-for-PlayCanvas/">en</a>
+/
+<a href="https://utautattaro.github.io/Photon-for-PlayCanvas/ja">ja</a>
+</div>
+
+# Overview 
 
 ## Description
 You can create multiplayer webGL Apps with [PlayCanvas](https://playcanvas.com) and [Photon](https://www.photonengine.com/en/Photon) (and this plugin)
 
 You just insert this plugin for your playcanvas project, you can be ready using photon.
 
-This plugin support both photon cloud and photon server.
+The plugin is supporting both photon cloud and photon server.
 
 <img width="100%" src="http://i.imgur.com/wEfLBe7.png" />
 
@@ -14,9 +20,12 @@ This plugin support both photon cloud and photon server.
 
 move...WASD shot...enter (mobile,gamepad)
 
-[fullscreen](https://playcanv.as/p/m9ZoTmjj/)
+[demo-6window](https://utautattaro.github.io/Photon-for-PlayCanvas/testclient.html)
+*only pc
+
 [Project overview](https://playcanvas.com/project/433966/overview/photonstarterkit)
-[6windows-testclient](https://utautattaro.github.io/Photon-for-PlayCanvas/testclient.html)
+This project is all public.
+
 
 ## Requirement
 Only PlayCanvas
@@ -61,7 +70,7 @@ if you attached app.js to ROOT object...
 <pre>
 var photonobject;
 somescript.prototype.initialize = function(){
-    photonobject = this.app.root;
+    photonobject = this.app.root.children[0];//get root object
 };
 
 somescript.prototype.update = function(dt){
@@ -74,7 +83,7 @@ somescript.prototype.update = function(dt){
 <pre>
 var photonobject;
 somescript.prototype.initialize = function(){
-    photonobject = this.app.root;
+    photonobject = this.app.root.children[0];//get root object
 };
 
 somescript.prototype.update = function(dt){
@@ -107,7 +116,7 @@ photonobject.photon.onActorJoin = function(actor){//callback if Actor joined roo
     {
         //other player join room
     }
-}
+};
 
 //if other player joined room before you join 
 photonobject.photon.onJoinRoom = function(){
@@ -118,22 +127,107 @@ photonobject.photon.onJoinRoom = function(){
             }
         }
     }
-}
+};
 </pre>
 
 ### leaveroom
 <pre>
 //in update method...
 PhotonController.photon.onActorLeave = function(actor,cleanup){//callback if Actor leave room
-        if(actor.actorNr == this.myActor().actorNr)
-        {
-            //if player leave room  
+    if(actor.actorNr == this.myActor().actorNr)
+    {
+        //if player leave room  
+    }
+    else
+    {
+        //other player leave room
+    }
+};
+</pre>
+
+
+### Hint
+<pre>
+///////////////Simple object sync///////////////
+
+// 1.Generate other player object
+photonobject.photon.onActorJoin = function(actor){//callback if Actor joined room
+    if(actor.actorNr != this.myActor().actorNr){
+        //other player join room
+        otherobject.generate(); // Generate otherobject
+    }
+};
+
+//if other player joined room before you join 
+photonobject.photon.onJoinRoom = function(){
+    for(var i = 1;i < this.myActor().actorNr;i++){
+        if(this.myRoomActors()[i]){
+            if(!this.myRoomActors()[i].isLocal){
+                //loop num of players in the room
+                otherobject.generate(); // Generate otherobject
+            }
         }
-        else
-        {
-            //other player leave room
+    }
+};
+
+// 2. Player Script: send transform
+playercontrol.prototype.send = function(){
+    photonobject.photon.raiseEvent(1, this.entity.getLocalPosition()); // send position data on Eventcode 1
+    photonobject.photon.raiseEvent(2, this.entity.getLocalEulerAngles()); // send angle data on Eventcode 2
+};
+
+// 3. Other player Manager Script : recive transforms
+otherplayercontrol.prototype.recive = function(){
+    photonobject.photon.onEvent = function(code, content, actorNr){//callback if you recive message
+        switch(code){
+            case 1: 
+                otherobject.setLocalPotisions(content.data[0],content.data[1],content.data[2]);
+                break;
+            case 2:
+                otherobject.setLocalEularAngles(content.data[0],content.data[1],content.data[2]);
+                break;
         }
     };
+};
+
+// 4. leave : Destroy object
+PhotonController.photon.onActorLeave = function(actor,cleanup){//callback if Actor leave room
+    if(actor.actorNr != this.myActor().actorNr)
+    {
+        //other player leave room
+        otherobject.destroy();
+    }
+};
+
+///////////////Serialize, Deserialize///////////////
+somescript.prototype.send = function(){
+    var message = "";
+    message += this.entity.getLocalPosition().x + ",";
+    message += this.entity.getLocalPosition().y + ",";
+    .
+    .
+    .
+    message += this.entity.getLocalEulerAngles().z;
+
+    var oldmessage = "";
+    if(message != oldmessage){
+        PhotonController.photon.raiseEvent(1,message);
+        oldmessage = message;
+    }
+};
+
+somescript.prototype.recive = function(){
+    photonobject.photon.onEvent = function(code, content, actorNr){//callback if you recive message
+        switch(code){
+            case 1: 
+                var recivemes;
+                recivemes = content.data.split(",");
+                otherobject.setLocalPotisions(recivemes[0],recivemes[1],recivemes[2]);
+                otherobject.setLocalEularAngles(recivemes[3],recivemes[4],recivemes[5]);
+                break;
+        }
+    };
+};
 </pre>
 
 ### documentation
@@ -152,3 +246,5 @@ ryotaro
 [portal](http://utautattaro.com)
 [blog](http://blog.utautattaro.com)
 [playcanvas](https://playcanvas.com/ryotaro)
+
+last update 2017-01-03 11:59:55
