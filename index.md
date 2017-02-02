@@ -66,6 +66,7 @@ You should call Photon-Javascript_SDK.js and demoloadbalancing.js before app.js
 
 ## coding
 if you attached app.js to ROOT object...
+
 ### sendmessage
 <pre>
 var photonobject;
@@ -247,4 +248,4 @@ ryotaro
 [blog](http://blog.utautattaro.com)
 [playcanvas](https://playcanvas.com/ryotaro)
 
-last update 2017-01-03 11:59:55
+last update 2017-02-02 14:55:07
