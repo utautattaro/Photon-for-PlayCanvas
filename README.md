@@ -18,7 +18,7 @@ The plugin is supporting both photon cloud and photon server.
 ## Demo (photon cloud free 20ccu @Tokyo.Japan Region)
 [demo](https://playcanv.as/p/m9ZoTmjj/)
 
-[demo-6window](https://utautattaro.github.io/Photon-for-PlayCanvas/testclient.html)
+[demo-multiWindow](http://playcanvas.utautattaro.com/quadiframe.html?tile_x=3&tile_y=2&url=https://playcanv.as/p/m9ZoTmjj/)
 *only pc
 
 [Project overview](https://playcanvas.com/project/433966/overview/photonstarterkit)
