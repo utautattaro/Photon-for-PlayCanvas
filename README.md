@@ -34,6 +34,8 @@ Only PlayCanvas
 
 <img width="40%" src="http://i.imgur.com/UGxJnFj.png" />
 
+<li>download Photon-Javascript_SDK.(min.)js, upload project</li>
+
 <li>app.js to become playcanvas script object</li>
 
 app.js must be playcanvas object.
@@ -244,4 +246,4 @@ ryotaro
 [blog](http://blog.utautattaro.com)
 [playcanvas](https://playcanvas.com/ryotaro)
 
-last update 2017-01-03 11:39:15
+last update 2017/12/17 03:24 AM

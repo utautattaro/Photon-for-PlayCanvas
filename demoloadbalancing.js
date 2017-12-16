@@ -1,7 +1,7 @@
 var DemoLoadBalancing = (function (_super) {
     __extends(DemoLoadBalancing, _super);
     function DemoLoadBalancing() {
-        _super.call(this, DemoWss ? Photon.ConnectionProtocol.Wss : Photon.ConnectionProtocol.Ws, DemoAppId, DemoAppVersion);
+        _super.call(this, ("https:" == document.location.protocol) ? Photon.ConnectionProtocol.Wss : Photon.ConnectionProtocol.Ws, DemoAppId, DemoAppVersion);
         this.logger = new Exitgames.Common.Logger("Demo:");
         this.output(this.logger.format("Init", this.getNameServerAddress(), DemoAppId, DemoAppVersion));
         this.logger.info("Init", this.getNameServerAddress(), DemoAppId, DemoAppVersion);

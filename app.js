@@ -10,6 +10,7 @@ App.attributes.add("Region",{
         { "Select Region" : 'default'},
         { "Asia, Singapore" : 'asia'},
         { "Australia, Melbourne": 'au'},
+        { "Chinese Mainland (See Instructions)	Shanghai":'cn'},
         { "Canada, East Montreal": 'cae'},
         { "Europe, Amsterdam":'eu'},
         { "India, Chennai": 'in'},
