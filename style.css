@@ -1,82 +1,87 @@
 body {
-    font-family: "Courier New", Courier, monospace;
-    text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
 }
 
 .container {
-    position: absolute;
-    background-color: rgba(255,255,255,0.6);
-    border-radius: 30px;
-    top: calc(50% - 150px);
-    left: calc(50% - 160px);
-    width: 320px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 30px;
+  top: calc(50% - 150px);
+  left: calc(50% - 160px);
+  width: 320px;
+  z-index: 1;
 }
 
 .log {
-    position: absolute;
-    text-align:left;
-    font-size:5px;
-    color:#fff;
-    border-radius: 30px;
-    top: 0%;
-    left: 0%;
-    width: 320px;
+  position: absolute;
+  text-align: left;
+  font-size: 5px;
+  color: #fff;
+  border-radius: 30px;
+  top: 0%;
+  left: 0%;
+  width: 320px;
 }
 
 input {
-	background-color: transparent;
-	border: 2px solid #666;
-	color: #111;
-	line-height: 20px;
-    margin: 2px; padding: 2px;
+  background-color: transparent;
+  border: 2px solid #666;
+  color: #111;
+  line-height: 20px;
+  margin: 2px;
+  padding: 2px;
 }
 
 select {
-	background-color: transparent;
-	border: 2px solid #666;
-	color: #111;
-	line-height: 20px;
-    margin: 2px; padding: 2px;
+  background-color: transparent;
+  border: 2px solid #666;
+  color: #111;
+  line-height: 20px;
+  margin: 2px;
+  padding: 2px;
 }
 
 button {
-	background-color: transparent;
-	border: 2px solid #666;
-	color: #111;
-	line-height: 20px;
-    margin: 2px; padding: 2px;
+  background-color: transparent;
+  border: 2px solid #666;
+  color: #111;
+  line-height: 20px;
+  margin: 2px;
+  padding: 2px;
 }
 
 button[disabled] {
-	background-color: transparent;
-	border: 2px solid #666;
-	color: #888;
-	line-height: 20px;
-    margin: 2px; padding: 2px;
+  background-color: transparent;
+  border: 2px solid #666;
+  color: #888;
+  line-height: 20px;
+  margin: 2px;
+  padding: 2px;
 }
 
 button:hover {
-	background-color: rgba(255, 255, 255, .4);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 input:hover {
-	background-color: rgba(255, 255, 255, .4);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 select:hover {
-	background-color: rgba(255, 255, 255, .4);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 button[disabled]:hover {
-    background-color: transparent;
+  background-color: transparent;
 }
 
-.white{
-    color: #ffffff;
+.white {
+  color: #ffffff;
 }
 
-.black{
-    color: #000000;
+.black {
+  color: #000000;
 }
 
 * {
