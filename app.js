@@ -49,7 +49,7 @@ App.prototype.initialize = function() {
         else if(!this.Masterserver)
         {
             if(window.confirm("Thank you for your forking! \n Please get and enter your AppId if you started development \n  Do you want to acquire AppId now?") === true){
-                 window.location.href = 'https://www.photonengine.com/en/Account/Signup';
+                 window.location.href = 'https://dashboard.photonengine.com/';
             }else{
                  window.open('about:blank','_self').close();
             }
